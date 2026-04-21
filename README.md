@@ -1,29 +1,29 @@
-# 🎭 Facial Emotion Recognition Project
+# 🎭 Real-Time Emotion Detection using Computer Vision
 
-This project focuses on building a facial emotion recognition system using computer vision and machine learning concepts.
-
-## 🧠 Project Idea
-The system detects human emotions based on facial expressions using facial landmarks.
-
-## 📊 Emotions
-- Angry
-- Happy
-- Sad
-
-## ⚙️ Methodology
-- Face detection using Mediapipe
-- Extract facial landmarks (468 points)
-- Convert into numerical features
-- Train a machine learning model for classification
+This project implements a real-time facial emotion recognition system using Mediapipe and machine learning.
 
 ## 🚀 Features
 - Real-time emotion detection
-- Landmark-based feature extraction
-- Lightweight and fast processing
+- Facial landmark extraction (468 points)
+- Machine learning classification
 
-## 📌 Note
-The implementation code is not included in this repository.
+## 🧠 Technologies
+- Python
+- OpenCV
+- Mediapipe
+- Scikit-learn
+
+## ▶️ Usage
+
+1. Create dataset:
+python data.py
+
+2. Train model:
+python train.py
+
+3. Run:
+python test.py
 
 ---
 
-👩‍💻 Developed by Ghadah
+Developed by Ghadah
